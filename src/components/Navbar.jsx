@@ -14,7 +14,7 @@ const Navbar = () => {
         <>
             <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
                 {/* Brand/logo */}
-                <Link className="navbar-brand ps-3" to="/">Store Admin</Link>
+                <Link className="navbar-brand ps-3" to="/">Orbin Admin</Link>
 
                 {/* Sidebar toggle button (visible on all screens) */}
                 <button onClick={() => setNavBar(!navbar)} className="lg:hidden btn   order-1  me-4 text-white hover:text-gray-800" id='moniletoglemenu'>
